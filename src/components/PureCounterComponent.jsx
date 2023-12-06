@@ -5,7 +5,7 @@ class PureCounterComponent extends PureComponent {
     super(props);
     this.state = {
       counter: 0,
-      toggle: true,
+      toggle: false,
     };
   }
   setToggle = () => {
